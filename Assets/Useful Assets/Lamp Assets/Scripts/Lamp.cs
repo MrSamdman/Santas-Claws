@@ -13,11 +13,12 @@ public class Lamp : MonoBehaviour {
     public GameObject DomeOn;
 
     public bool TurnOn;
-
+    AudioSource Click;
 
     // Use this for initialization
     void Start () 
     {
+        Click = GetComponent<AudioSource>();
     }
 
 
@@ -26,6 +27,7 @@ public class Lamp : MonoBehaviour {
         TurnOn = !TurnOn;
         if (TurnOn == true)
         {
+            Click.Play();
             LampLight.SetActive(true);
             DomeOff.SetActive(false);
             DomeOn.SetActive(true);
@@ -33,7 +35,7 @@ public class Lamp : MonoBehaviour {
         }
         if (TurnOn == false)
         {
-
+            Click.Play();
             LampLight.SetActive(false);
             DomeOff.SetActive(true);
             DomeOn.SetActive(false);

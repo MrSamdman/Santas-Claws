@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/ChristmasScene.unity
+    path: Assets/EMBEDDED/Scenes/ChristmasScene.unity
     guid: beebb466b517c6f46806fa2ee73f8580
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 2d1ae176e22d0f749a3ee935418f282c, type: 2}
