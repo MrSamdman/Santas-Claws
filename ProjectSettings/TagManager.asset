@@ -8,6 +8,9 @@ TagManager:
   - TextTrigger
   - TextTriggerExit
   - Lootable
+  - RoomDoorTag
+  - Scenary
+  - Radio
   layers:
   - Default
   - TransparentFX

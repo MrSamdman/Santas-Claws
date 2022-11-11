@@ -19,6 +19,7 @@ public class RadioScript : MonoBehaviour
     public void Scrm() 
     {
         AS.clip = Scrmr;
+        AS.volume = 1f;
         AS.Play();
     }
     void Interact() 

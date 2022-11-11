@@ -33,7 +33,9 @@ public class DoorScript : MonoBehaviour
         else if (IntAl == false)
         {
             IntAl = true;
+            GameObject.FindGameObjectWithTag("Scenary").GetComponent<Scenary>().makeNextAction(this.GetType().Name);
             Player.GetComponent<MonologScript>().EventShowing(3);
+
         }
             
     

@@ -8263,6 +8263,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Radio
       objectReference: {fileID: 0}
+    - target: {fileID: 13385339065999458, guid: 66df3c5eb0b75424582840a6f8405e9b, type: 3}
+      propertyPath: m_TagString
+      value: Radio
+      objectReference: {fileID: 0}
     - target: {fileID: 13385339066235970, guid: 66df3c5eb0b75424582840a6f8405e9b, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -18474,6 +18478,49 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 969229926}
   m_Mesh: {fileID: -5549907589895197962, guid: 7dfe9001ce6ed2b4fb1b8abad66ea521, type: 3}
+--- !u!1 &969974396
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 969974398}
+  - component: {fileID: 969974397}
+  m_Layer: 0
+  m_Name: ScenaryObj
+  m_TagString: Scenary
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &969974397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969974396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f04a53c6b69b61c4fa0d61035f4f05fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &969974398
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969974396}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.9107656, y: -1.9498272, z: -3.132675}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &974727062
 GameObject:
   m_ObjectHideFlags: 0
@@ -35821,6 +35868,10 @@ PrefabInstance:
     - target: {fileID: 4473975290732438239, guid: e23a07fe5b966364c8cbedc9ab002b79, type: 3}
       propertyPath: m_Name
       value: DoorFrame_Apt_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4993225960789221748, guid: e23a07fe5b966364c8cbedc9ab002b79, type: 3}
+      propertyPath: m_TagString
+      value: RoomDoorTag
       objectReference: {fileID: 0}
     - target: {fileID: 5820163242381754865, guid: e23a07fe5b966364c8cbedc9ab002b79, type: 3}
       propertyPath: m_RootOrder
