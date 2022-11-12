@@ -37,12 +37,16 @@ public class LightAction : Action
     }
 }
 
+
+
 public class Scenary : MonoBehaviour
 {
     List<Action> actions = new List<Action>() {
         new DoorAction{tag = "DoorScript"}, 
         new LightAction{tag = "Light"}  
     };
+
+    
 
     private void Start()
     {
@@ -73,3 +77,4 @@ public class Scenary : MonoBehaviour
         }
     }
 }
+
